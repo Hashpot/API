@@ -1,0 +1,9 @@
+{
+  "name": "grindtask",
+  "version": "1.0.0",
+  "author": "Max Henchman",
+  "license": "ISC",
+  "scripts": {
+    "build": "sass assets/main.scss assets/main.css"
+  }
+}

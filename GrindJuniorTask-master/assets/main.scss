@@ -1,0 +1,115 @@
+// Rudimentary reset
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgray;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+
+
+.form {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.form__title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.form__input-btn {
+  display: flex;
+  align-items: center;
+}
+
+.form__input {
+  height: 40px; 
+  width: 80px;
+  border: 1px solid black; 
+  color: black; 
+  padding: 5px 10px; 
+  border-radius: 10px;
+}
+
+.form__btn {
+  height: 40px;
+  width: 500px; 
+  margin-left: 10px; 
+  padding: 8px 20px; 
+  background-color: black; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  transition: background-color 0.3s ease; 
+  border-radius: 10px;
+
+  &:hover {
+    background-color: #333; 
+  }
+}
+
+.person-details {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 586px;
+  border-radius: 10px;
+}
+
+.avatar {
+  width: 114px; 
+  height: 114px; 
+  overflow: hidden; 
+  border-radius: 10px 0px 0px 10px;
+}
+
+.person-info {
+  flex: 1;
+}
+
+.person-details p {
+  margin-bottom: 10px; 
+}
+
+.search-results {
+  display: flex;
+  align-items: center; 
+  margin-top: 20px; 
+}
+
+.name {
+  background-color: black;
+  color: white; 
+  padding: 5px; 
+  border-radius: 0px 10px 0px 0px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.email,
+    .phone {
+      background-color: white; 
+      color: black; 
+      padding: 5px;
+      font-weight: bold;
+      font-size: 15px;
+    }
